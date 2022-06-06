@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+min-height: 100vh;
+
+}
+
+h1, h2{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.226);
+}
+.circle-cont{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-block: 120px;
+    justify-content: space-evenly;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+   
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   
+}
+
+.circulo1{
+background: linear-gradient(to left, #222, #02735E);
+transition: all 1s linear;
+}
+
+.circulo2{
+    background: linear-gradient(to left, #222, #730202);
+    transition: all 1s linear;
+}
+
+
+.circulo3{
+    background: linear-gradient(to left, #222, #F2D6BD);
+    transition: all 1s linear;
+}
+
+#area{
+    width: 300px;
+    height: 60px;
+}
+
+.ejercicio2-cont{
+    margin: 30px 10px;
+  
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador{
+   display: block;
+   color: #222; 
+}
+
+.cont-aprobados{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+.cont-aprobados p{
+    margin-top: 10px;
+}
